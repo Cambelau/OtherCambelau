@@ -1,0 +1,6 @@
+C:\Users\Owner\Documents\Life\ECE\~ING 4.2\C#\Assignment3\DataAccessLayer\bin\Debug\DataAccessLayer.dll
+C:\Users\Owner\Documents\Life\ECE\~ING 4.2\C#\Assignment3\DataAccessLayer\bin\Debug\DataAccessLayer.pdb
+C:\Users\Owner\Documents\Life\ECE\~ING 4.2\C#\Assignment3\DataAccessLayer\obj\Debug\DataAccessLayer.csproj.AssemblyReference.cache
+C:\Users\Owner\Documents\Life\ECE\~ING 4.2\C#\Assignment3\DataAccessLayer\obj\Debug\DataAccessLayer.csproj.CoreCompileInputs.cache
+C:\Users\Owner\Documents\Life\ECE\~ING 4.2\C#\Assignment3\DataAccessLayer\obj\Debug\DataAccessLayer.dll
+C:\Users\Owner\Documents\Life\ECE\~ING 4.2\C#\Assignment3\DataAccessLayer\obj\Debug\DataAccessLayer.pdb

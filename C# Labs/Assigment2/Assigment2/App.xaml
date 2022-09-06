@@ -1,0 +1,22 @@
+﻿<Application x:Class="Assigment2.App"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:local="clr-namespace:Assigment2"
+             StartupUri="MainWindow.xaml">
+    <Application.Resources>
+        <LinearGradientBrush x:Key="GrayBlueGradientBrush" StartPoint="0,0" EndPoint="1,1">
+            <GradientStop Color="AliceBlue" Offset="0" />
+            <GradientStop Color="Turquoise" Offset="0.5" />
+            <GradientStop Color="AliceBlue" Offset="1" />
+        </LinearGradientBrush>
+        <Style TargetType="{x:Type MenuItem}">
+            <Setter Property="Background" Value="{StaticResource GrayBlueGradientBrush}" />
+        </Style>
+        <Style TargetType="{x:Type Menu}">
+            <Setter Property="Background" Value="PaleTurquoise" />
+        </Style>
+        <Style TargetType="{x:Type Button}">
+            <Setter Property="Background" Value="DarkGray" />
+        </Style>
+    </Application.Resources>
+</Application>

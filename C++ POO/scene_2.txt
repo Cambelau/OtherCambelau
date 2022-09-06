@@ -1,0 +1,29 @@
+bot1 200 550 yellow 150 250 na
+pant 0 100 #0404B4 150 100 bot1 
+oeil1 0 -70 white 40 40 bot1 
+oeilInt1 0 0 #170B3B 10 10 oeil1
+brasG -80 30 yellow 40 150 bot1 br bl
+brasD 80 30 yellow 40 150 bot1 tl tr
+jambeG 40 175 #29088A 45 50 bot1 tr bl
+jambeD -30 175 #29088A 45 50 bot1 tr bl
+bouche 0 5 white 55 15 bot1 
+bot2 200 0 yellow 150 250 bot1 tl br
+pant2 0 100 #0404B4 150 100 bot2 
+oeil2 0 -70 white 40 40 bot2
+oeilInt2 0 0 #170B3B 10 10 oeil2
+brasG2 -80 30 yellow 40 150 bot2 br bl
+brasD2 80 30 yellow 40 150 bot2 tl tr
+jambeG2 40 175 #29088A 45 50 bot2 tr bl
+jambeD2 -30 175 #29088A 45 50 bot2 tr bl
+bouche2 0 5 white 55 15 bot2 
+bot3 -100 -325 yellow 150 250 bot2 tr bl
+pant3 0 100 #0404B4 150 100 bot3 
+oeilG3 -30 -70 white 40 40 bot3 
+oeilD3 30 -70 white 40 40 bot3 
+oeilIntG3 0 0 #170B3B 10 10 oeilG3
+oeilIntD3 0 0 #170B3B 10 10 oeilD3
+brasG3 -80 30 yellow 40 150 bot3 br bl
+brasD3 80 30 yellow 40 150 bot3 tl tr
+jambeG3 40 175 #29088A 45 50 bot3 tr bl
+jambeD3 -30 175 #29088A 45 50 bot3 tr bl
+bouche3 0 5 white 55 15 bot3 

@@ -1,0 +1,416 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="1000" height="800">
+
+<polygon points=" 0,0 1000,0 1000,800 0,800 " style="fill:#EFF2FB;stroke:black;stroke-width:10"/>
+<line x1="0" y1="0" x2="1000" y2="0" stroke="lightgrey" />
+<text x="5" y="-5" fill="lightgrey" >0</text>
+<line x1="0" y1="100" x2="1000" y2="100" stroke="lightgrey" />
+<text x="5" y="95" fill="lightgrey" >100</text>
+<line x1="0" y1="200" x2="1000" y2="200" stroke="lightgrey" />
+<text x="5" y="195" fill="lightgrey" >200</text>
+<line x1="0" y1="300" x2="1000" y2="300" stroke="lightgrey" />
+<text x="5" y="295" fill="lightgrey" >300</text>
+<line x1="0" y1="400" x2="1000" y2="400" stroke="lightgrey" />
+<text x="5" y="395" fill="lightgrey" >400</text>
+<line x1="0" y1="500" x2="1000" y2="500" stroke="lightgrey" />
+<text x="5" y="495" fill="lightgrey" >500</text>
+<line x1="0" y1="600" x2="1000" y2="600" stroke="lightgrey" />
+<text x="5" y="595" fill="lightgrey" >600</text>
+<line x1="0" y1="700" x2="1000" y2="700" stroke="lightgrey" />
+<text x="5" y="695" fill="lightgrey" >700</text>
+<line x1="0" y1="800" x2="1000" y2="800" stroke="lightgrey" />
+<text x="5" y="795" fill="lightgrey" >800</text>
+<line x1="0" y1="0" x2="0" y2="800" stroke="lightgrey" />
+<text x="5" y="15" fill="lightgrey" >0</text>
+<line x1="100" y1="0" x2="100" y2="800" stroke="lightgrey" />
+<text x="105" y="15" fill="lightgrey" >100</text>
+<line x1="200" y1="0" x2="200" y2="800" stroke="lightgrey" />
+<text x="205" y="15" fill="lightgrey" >200</text>
+<line x1="300" y1="0" x2="300" y2="800" stroke="lightgrey" />
+<text x="305" y="15" fill="lightgrey" >300</text>
+<line x1="400" y1="0" x2="400" y2="800" stroke="lightgrey" />
+<text x="405" y="15" fill="lightgrey" >400</text>
+<line x1="500" y1="0" x2="500" y2="800" stroke="lightgrey" />
+<text x="505" y="15" fill="lightgrey" >500</text>
+<line x1="600" y1="0" x2="600" y2="800" stroke="lightgrey" />
+<text x="605" y="15" fill="lightgrey" >600</text>
+<line x1="700" y1="0" x2="700" y2="800" stroke="lightgrey" />
+<text x="705" y="15" fill="lightgrey" >700</text>
+<line x1="800" y1="0" x2="800" y2="800" stroke="lightgrey" />
+<text x="805" y="15" fill="lightgrey" >800</text>
+<line x1="900" y1="0" x2="900" y2="800" stroke="lightgrey" />
+<text x="905" y="15" fill="lightgrey" >900</text>
+<line x1="1000" y1="0" x2="1000" y2="800" stroke="lightgrey" />
+<text x="1005" y="15" fill="lightgrey" >1000</text>
+<text x="670" y="498" fill="black" >Valeurs des indices :</text>
+<text x="500" y="530" fill="black" >Nom / Degre / Degre normalise / I. vect propre / I. Prox / I. centralite inter</text>
+<line x1="500" y1="500" x2="1000" y2="500" stroke="black" />
+<line x1="500" y1="500" x2="500" y2="1860" stroke="black" />
+<line x1="500" y1="1860" x2="1000" y2="1860" stroke="black" />
+<text x="95" y="180" fill="black" >Defense</text>
+<circle cx="100" cy="200" r="7" fill="cyan" />
+<text x="510" y="550" fill="black" >Defense</text>
+<text x="560" y="550" fill="black" >1</text>
+<text x="600" y="550" fill="black" >0.030303</text>
+<text x="700" y="550" fill="black" >0.00692042</text>
+<text x="800" y="550" fill="black" >0.188571</text>
+<text x="900" y="550" fill="black" >0</text>
+<text x="145" y="230" fill="black" >Porte_Maillot</text>
+<circle cx="150" cy="250" r="7" fill="green" />
+<text x="510" y="580" fill="black" >Porte_Maillot</text>
+<text x="560" y="580" fill="black" >2</text>
+<text x="600" y="580" fill="black" >0.0606061</text>
+<text x="700" y="580" fill="black" >0.0207612</text>
+<text x="800" y="580" fill="black" >0.230769</text>
+<text x="900" y="580" fill="black" >0.0611111</text>
+<text x="195" y="280" fill="black" >Etoile</text>
+<circle cx="200" cy="300" r="7" fill="black" />
+<text x="510" y="610" fill="black" >Etoile</text>
+<text x="560" y="610" fill="black" >5</text>
+<text x="600" y="610" fill="black" >0.151515</text>
+<text x="700" y="610" fill="black" >0.0380623</text>
+<text x="800" y="610" fill="black" >0.292035</text>
+<text x="900" y="610" fill="black" >0.288879</text>
+<text x="315" y="340" fill="black" >Chatelet</text>
+<circle cx="320" cy="360" r="7" fill="red" />
+<text x="510" y="640" fill="black" >Chatelet</text>
+<text x="560" y="640" fill="black" >4</text>
+<text x="600" y="640" fill="black" >0.121212</text>
+<text x="700" y="640" fill="black" >0.0415225</text>
+<text x="800" y="640" fill="black" >0.308411</text>
+<text x="900" y="640" fill="black" >0.150716</text>
+<text x="395" y="370" fill="black" >Bastille</text>
+<circle cx="400" cy="390" r="7" fill="red" />
+<text x="510" y="670" fill="black" >Bastille</text>
+<text x="560" y="670" fill="black" >4</text>
+<text x="600" y="670" fill="black" >0.121212</text>
+<text x="700" y="670" fill="black" >0.0484429</text>
+<text x="800" y="670" fill="black" >0.289474</text>
+<text x="900" y="670" fill="black" >0.125903</text>
+<text x="495" y="380" fill="black" >Nation</text>
+<circle cx="500" cy="400" r="7" fill="red" />
+<text x="510" y="700" fill="black" >Nation</text>
+<text x="560" y="700" fill="black" >4</text>
+<text x="600" y="700" fill="black" >0.121212</text>
+<text x="700" y="700" fill="black" >0.0380623</text>
+<text x="800" y="700" fill="black" >0.259843</text>
+<text x="900" y="700" fill="black" >0.151024</text>
+<text x="545" y="430" fill="black" >Vincennes</text>
+<circle cx="550" cy="450" r="7" fill="cyan" />
+<text x="510" y="730" fill="black" >Vincennes</text>
+<text x="560" y="730" fill="black" >1</text>
+<text x="600" y="730" fill="black" >0.030303</text>
+<text x="700" y="730" fill="black" >0.0138408</text>
+<text x="800" y="730" fill="black" >0.214286</text>
+<text x="900" y="730" fill="black" >0.000538473</text>
+<text x="145" y="330" fill="black" >Porte_Dauphine</text>
+<circle cx="150" cy="350" r="7" fill="cyan" />
+<text x="510" y="760" fill="black" >Porte_Dauphine</text>
+<text x="560" y="760" fill="black" >1</text>
+<text x="600" y="760" fill="black" >0.030303</text>
+<text x="700" y="760" fill="black" >0.017301</text>
+<text x="800" y="760" fill="black" >0.227586</text>
+<text x="900" y="760" fill="black" >0.000505051</text>
+<text x="245" y="210" fill="black" >Villiers</text>
+<circle cx="250" cy="230" r="7" fill="red" />
+<text x="510" y="790" fill="black" >Villiers</text>
+<text x="560" y="790" fill="black" >4</text>
+<text x="600" y="790" fill="black" >0.121212</text>
+<text x="700" y="790" fill="black" >0.0449827</text>
+<text x="800" y="790" fill="black" >0.268293</text>
+<text x="900" y="790" fill="black" >0.201882</text>
+<text x="295" y="180" fill="black" >Barbes</text>
+<circle cx="300" cy="200" r="7" fill="red" />
+<text x="510" y="820" fill="black" >Barbes</text>
+<text x="560" y="820" fill="black" >4</text>
+<text x="600" y="820" fill="black" >0.121212</text>
+<text x="700" y="820" fill="black" >0.0449827</text>
+<text x="800" y="820" fill="black" >0.279661</text>
+<text x="900" y="820" fill="black" >0.0909369</text>
+<text x="395" y="210" fill="black" >Stalingrad</text>
+<circle cx="400" cy="230" r="7" fill="red" />
+<text x="510" y="850" fill="black" >Stalingrad</text>
+<text x="560" y="850" fill="black" >4</text>
+<text x="600" y="850" fill="black" >0.121212</text>
+<text x="700" y="850" fill="black" >0.0449827</text>
+<text x="800" y="850" fill="black" >0.242647</text>
+<text x="900" y="850" fill="black" >0.101397</text>
+<text x="445" y="280" fill="black" >Pere_Lachaise</text>
+<circle cx="450" cy="300" r="7" fill="red" />
+<text x="510" y="880" fill="black" >Pere_Lachaise</text>
+<text x="560" y="880" fill="black" >4</text>
+<text x="600" y="880" fill="black" >0.121212</text>
+<text x="700" y="880" fill="black" >0.0449827</text>
+<text x="800" y="880" fill="black" >0.268293</text>
+<text x="900" y="880" fill="black" >0.113076</text>
+<text x="145" y="130" fill="black" >Levallois</text>
+<circle cx="150" cy="150" r="7" fill="cyan" />
+<text x="510" y="910" fill="black" >Levallois</text>
+<text x="560" y="910" fill="black" >1</text>
+<text x="600" y="910" fill="black" >0.030303</text>
+<text x="700" y="910" fill="black" >0.00692042</text>
+<text x="800" y="910" fill="black" >0.176471</text>
+<text x="900" y="910" fill="black" >0</text>
+<text x="175" y="160" fill="black" >Pereire</text>
+<circle cx="180" cy="180" r="7" fill="green" />
+<text x="510" y="940" fill="black" >Pereire</text>
+<text x="560" y="940" fill="black" >2</text>
+<text x="600" y="940" fill="black" >0.0606061</text>
+<text x="700" y="940" fill="black" >0.017301</text>
+<text x="800" y="940" fill="black" >0.212903</text>
+<text x="900" y="940" fill="black" >0.061553</text>
+<text x="285" y="250" fill="black" >Saint_Lazare</text>
+<circle cx="290" cy="270" r="7" fill="green" />
+<text x="510" y="970" fill="black" >Saint_Lazare</text>
+<text x="560" y="970" fill="black" >2</text>
+<text x="600" y="970" fill="black" >0.0606061</text>
+<text x="700" y="970" fill="black" >0.0207612</text>
+<text x="800" y="970" fill="black" >0.22449</text>
+<text x="900" y="970" fill="black" >0.03488</text>
+<text x="325" y="270" fill="black" >Opera</text>
+<circle cx="330" cy="290" r="7" fill="green" />
+<text x="510" y="1000" fill="black" >Opera</text>
+<text x="560" y="1000" fill="black" >2</text>
+<text x="600" y="1000" fill="black" >0.0606061</text>
+<text x="700" y="1000" fill="black" >0.0207612</text>
+<text x="800" y="1000" fill="black" >0.244444</text>
+<text x="900" y="1000" fill="black" >0.0420755</text>
+<text x="365" y="310" fill="black" >Reaumur</text>
+<circle cx="370" cy="330" r="7" fill="red" />
+<text x="510" y="1030" fill="black" >Reaumur</text>
+<text x="560" y="1030" fill="black" >4</text>
+<text x="600" y="1030" fill="black" >0.121212</text>
+<text x="700" y="1030" fill="black" >0.0484429</text>
+<text x="800" y="1030" fill="black" >0.284483</text>
+<text x="900" y="1030" fill="black" >0.0759178</text>
+<text x="405" y="310" fill="black" >Republique</text>
+<circle cx="410" cy="330" r="7" fill="red" />
+<text x="510" y="1060" fill="black" >Republique</text>
+<text x="560" y="1060" fill="black" >4</text>
+<text x="600" y="1060" fill="black" >0.121212</text>
+<text x="700" y="1060" fill="black" >0.0553633</text>
+<text x="800" y="1060" fill="black" >0.277311</text>
+<text x="900" y="1060" fill="black" >0.0899625</text>
+<text x="545" y="260" fill="black" >Gallieni</text>
+<circle cx="550" cy="280" r="7" fill="cyan" />
+<text x="510" y="1090" fill="black" >Gallieni</text>
+<text x="560" y="1090" fill="black" >1</text>
+<text x="600" y="1090" fill="black" >0.030303</text>
+<text x="700" y="1090" fill="black" >0.0138408</text>
+<text x="800" y="1090" fill="black" >0.218543</text>
+<text x="900" y="1090" fill="black" >0.00348831</text>
+<text x="245" y="310" fill="black" >Champs-Elysees</text>
+<circle cx="250" cy="330" r="7" fill="green" />
+<text x="510" y="1120" fill="black" >Champs-Elysees</text>
+<text x="560" y="1120" fill="black" >2</text>
+<text x="600" y="1120" fill="black" >0.0606061</text>
+<text x="700" y="1120" fill="black" >0.0311419</text>
+<text x="800" y="1120" fill="black" >0.266129</text>
+<text x="900" y="1120" fill="black" >0.0717754</text>
+<text x="285" y="100" fill="black" >Porte_Clign</text>
+<circle cx="290" cy="120" r="7" fill="cyan" />
+<text x="510" y="1150" fill="black" >Porte_Clign</text>
+<text x="560" y="1150" fill="black" >1</text>
+<text x="600" y="1150" fill="black" >0.030303</text>
+<text x="700" y="1150" fill="black" >0.0138408</text>
+<text x="800" y="1150" fill="black" >0.215686</text>
+<text x="900" y="1150" fill="black" >0.00540634</text>
+<text x="325" y="220" fill="black" >Gare_du_Nord</text>
+<circle cx="330" cy="240" r="7" fill="red" />
+<text x="510" y="1180" fill="black" >Gare_du_Nord</text>
+<text x="560" y="1180" fill="black" >4</text>
+<text x="600" y="1180" fill="black" >0.121212</text>
+<text x="700" y="1180" fill="black" >0.0553633</text>
+<text x="800" y="1180" fill="black" >0.255814</text>
+<text x="900" y="1180" fill="black" >0.0653394</text>
+<text x="375" y="250" fill="black" >Gare_de_l'Est</text>
+<circle cx="380" cy="270" r="7" fill="red" />
+<text x="510" y="1210" fill="black" >Gare_de_l'Est</text>
+<text x="560" y="1210" fill="black" >4</text>
+<text x="600" y="1210" fill="black" >0.121212</text>
+<text x="700" y="1210" fill="black" >0.0553633</text>
+<text x="800" y="1210" fill="black" >0.246269</text>
+<text x="900" y="1210" fill="black" >0.0502608</text>
+<text x="315" y="380" fill="black" >Saint_Michel</text>
+<circle cx="320" cy="400" r="7" fill="green" />
+<text x="510" y="1240" fill="black" >Saint_Michel</text>
+<text x="560" y="1240" fill="black" >2</text>
+<text x="600" y="1240" fill="black" >0.0606061</text>
+<text x="700" y="1240" fill="black" >0.0276817</text>
+<text x="800" y="1240" fill="black" >0.266129</text>
+<text x="900" y="1240" fill="black" >0.0485983</text>
+<text x="315" y="430" fill="black" >Montparnasse</text>
+<circle cx="320" cy="450" r="7" fill="red" />
+<text x="510" y="1270" fill="black" >Montparnasse</text>
+<text x="560" y="1270" fill="black" >4</text>
+<text x="600" y="1270" fill="black" >0.121212</text>
+<text x="700" y="1270" fill="black" >0.0415225</text>
+<text x="800" y="1270" fill="black" >0.23913</text>
+<text x="900" y="1270" fill="black" >0.128605</text>
+<text x="335" y="450" fill="black" >Raspail</text>
+<circle cx="340" cy="470" r="7" fill="red" />
+<text x="510" y="1300" fill="black" >Raspail</text>
+<text x="560" y="1300" fill="black" >4</text>
+<text x="600" y="1300" fill="black" >0.121212</text>
+<text x="700" y="1300" fill="black" >0.0553633</text>
+<text x="800" y="1300" fill="black" >0.211538</text>
+<text x="900" y="1300" fill="black" >0.0873187</text>
+<text x="375" y="460" fill="black" >Denfert</text>
+<circle cx="380" cy="480" r="7" fill="red" />
+<text x="510" y="1330" fill="black" >Denfert</text>
+<text x="560" y="1330" fill="black" >4</text>
+<text x="600" y="1330" fill="black" >0.121212</text>
+<text x="700" y="1330" fill="black" >0.0415225</text>
+<text x="800" y="1330" fill="black" >0.20625</text>
+<text x="900" y="1330" fill="black" >0.109087</text>
+<text x="325" y="510" fill="black" >Montrouge</text>
+<circle cx="330" cy="530" r="7" fill="cyan" />
+<text x="510" y="1360" fill="black" >Montrouge</text>
+<text x="560" y="1360" fill="black" >1</text>
+<text x="600" y="1360" fill="black" >0.030303</text>
+<text x="700" y="1360" fill="black" >0.0138408</text>
+<text x="800" y="1360" fill="black" >0.164179</text>
+<text x="900" y="1360" fill="black" >0</text>
+<text x="215" y="380" fill="black" >Bir_Hakeim</text>
+<circle cx="220" cy="400" r="7" fill="green" />
+<text x="510" y="1390" fill="black" >Bir_Hakeim</text>
+<text x="560" y="1390" fill="black" >2</text>
+<text x="600" y="1390" fill="black" >0.0606061</text>
+<text x="700" y="1390" fill="black" >0.0242215</text>
+<text x="800" y="1390" fill="black" >0.242647</text>
+<text x="900" y="1390" fill="black" >0.114974</text>
+<text x="255" y="410" fill="black" >La_Motte</text>
+<circle cx="260" cy="430" r="7" fill="green" />
+<text x="510" y="1420" fill="black" >La_Motte</text>
+<text x="560" y="1420" fill="black" >2</text>
+<text x="600" y="1420" fill="black" >0.0606061</text>
+<text x="700" y="1420" fill="black" >0.0207612</text>
+<text x="800" y="1420" fill="black" >0.227586</text>
+<text x="900" y="1420" fill="black" >0.0937795</text>
+<text x="435" y="440" fill="black" >Place-D'Italie</text>
+<circle cx="440" cy="460" r="7" fill="blue" />
+<text x="510" y="1450" fill="black" >Place-D'Italie</text>
+<text x="560" y="1450" fill="black" >3</text>
+<text x="600" y="1450" fill="black" >0.0909091</text>
+<text x="700" y="1450" fill="black" >0.0276817</text>
+<text x="800" y="1450" fill="black" >0.189655</text>
+<text x="900" y="1450" fill="black" >0.0918792</text>
+<text x="465" y="410" fill="black" >Bercy</text>
+<circle cx="470" cy="430" r="7" fill="green" />
+<text x="510" y="1480" fill="black" >Bercy</text>
+<text x="560" y="1480" fill="black" >2</text>
+<text x="600" y="1480" fill="black" >0.0606061</text>
+<text x="700" y="1480" fill="black" >0.0242215</text>
+<text x="800" y="1480" fill="black" >0.215686</text>
+<text x="900" y="1480" fill="black" >0.0654116</text>
+<text x="505" y="160" fill="black" >Bobigny</text>
+<circle cx="510" cy="180" r="7" fill="cyan" />
+<text x="510" y="1510" fill="black" >Bobigny</text>
+<text x="560" y="1510" fill="black" >1</text>
+<text x="600" y="1510" fill="black" >0.030303</text>
+<text x="700" y="1510" fill="black" >0.0138408</text>
+<text x="800" y="1510" fill="black" >0.203704</text>
+<text x="900" y="1510" fill="black" >0.00170455</text>
+<text x="405" y="410" fill="black" >Gare_D'Austerlitz</text>
+<circle cx="410" cy="430" r="7" fill="green" />
+<text x="510" y="1540" fill="black" >Gare_D'Austerlitz</text>
+<text x="560" y="1540" fill="black" >2</text>
+<text x="600" y="1540" fill="black" >0.0606061</text>
+<text x="700" y="1540" fill="black" >0.0242215</text>
+<text x="800" y="1540" fill="black" >0.230769</text>
+<text x="900" y="1540" fill="black" >0.0324407</text>
+<line x1="100" y1="200" x2="150" y2="250" stroke="black" />
+<text x="125" y="225" fill="black" >0:1</text>
+<line x1="150" y1="250" x2="200" y2="300" stroke="black" />
+<text x="175" y="275" fill="black" >1:1</text>
+<line x1="250" y1="330" x2="320" y2="360" stroke="black" />
+<text x="285" y="345" fill="black" >2:1</text>
+<line x1="320" y1="360" x2="400" y2="390" stroke="black" />
+<text x="360" y="375" fill="black" >3:1</text>
+<line x1="400" y1="390" x2="500" y2="400" stroke="black" />
+<text x="450" y="395" fill="black" >4:1</text>
+<line x1="500" y1="400" x2="550" y2="450" stroke="black" />
+<text x="525" y="425" fill="black" >5:1</text>
+<line x1="150" y1="350" x2="200" y2="300" stroke="black" />
+<text x="175" y="325" fill="black" >6:1</text>
+<line x1="200" y1="300" x2="250" y2="230" stroke="black" />
+<text x="225" y="265" fill="black" >7:1</text>
+<line x1="250" y1="230" x2="300" y2="200" stroke="black" />
+<text x="275" y="215" fill="black" >8:1</text>
+<line x1="300" y1="200" x2="400" y2="230" stroke="black" />
+<text x="350" y="215" fill="black" >9:1</text>
+<line x1="400" y1="230" x2="450" y2="300" stroke="black" />
+<text x="425" y="265" fill="black" >10:1</text>
+<line x1="450" y1="300" x2="500" y2="400" stroke="black" />
+<text x="475" y="350" fill="black" >11:1</text>
+<line x1="150" y1="150" x2="180" y2="180" stroke="black" />
+<text x="165" y="165" fill="black" >12:1</text>
+<line x1="180" y1="180" x2="250" y2="230" stroke="black" />
+<text x="215" y="205" fill="black" >13:1</text>
+<line x1="250" y1="230" x2="290" y2="270" stroke="black" />
+<text x="270" y="250" fill="black" >14:1</text>
+<line x1="290" y1="270" x2="330" y2="290" stroke="black" />
+<text x="310" y="280" fill="black" >15:1</text>
+<line x1="330" y1="290" x2="370" y2="330" stroke="black" />
+<text x="350" y="310" fill="black" >16:1</text>
+<line x1="370" y1="330" x2="410" y2="330" stroke="black" />
+<text x="390" y="330" fill="black" >17:1</text>
+<line x1="410" y1="330" x2="450" y2="300" stroke="black" />
+<text x="430" y="315" fill="black" >18:1</text>
+<line x1="450" y1="300" x2="550" y2="280" stroke="black" />
+<text x="500" y="290" fill="black" >19:1</text>
+<line x1="200" y1="300" x2="250" y2="330" stroke="black" />
+<text x="225" y="315" fill="black" >20:1</text>
+<line x1="290" y1="120" x2="300" y2="200" stroke="black" />
+<text x="295" y="160" fill="black" >21:1</text>
+<line x1="300" y1="200" x2="330" y2="240" stroke="black" />
+<text x="315" y="220" fill="black" >22:1</text>
+<line x1="330" y1="240" x2="380" y2="270" stroke="black" />
+<text x="355" y="255" fill="black" >23:1</text>
+<line x1="380" y1="270" x2="370" y2="330" stroke="black" />
+<text x="375" y="300" fill="black" >24:1</text>
+<line x1="370" y1="330" x2="320" y2="360" stroke="black" />
+<text x="345" y="345" fill="black" >25:1</text>
+<line x1="320" y1="360" x2="320" y2="400" stroke="black" />
+<text x="320" y="380" fill="black" >26:1</text>
+<line x1="320" y1="400" x2="320" y2="450" stroke="black" />
+<text x="320" y="425" fill="black" >27:1</text>
+<line x1="320" y1="450" x2="340" y2="470" stroke="black" />
+<text x="330" y="460" fill="black" >28:1</text>
+<line x1="340" y1="470" x2="380" y2="480" stroke="black" />
+<text x="360" y="475" fill="black" >29:1</text>
+<line x1="380" y1="480" x2="330" y2="530" stroke="black" />
+<text x="355" y="505" fill="black" >30:1</text>
+<line x1="200" y1="300" x2="220" y2="400" stroke="black" />
+<text x="210" y="350" fill="black" >31:1</text>
+<line x1="220" y1="400" x2="260" y2="430" stroke="black" />
+<text x="240" y="415" fill="black" >32:1</text>
+<line x1="260" y1="430" x2="320" y2="450" stroke="black" />
+<text x="290" y="440" fill="black" >33:1</text>
+<line x1="320" y1="450" x2="340" y2="470" stroke="black" />
+<text x="330" y="460" fill="black" >34:1</text>
+<line x1="340" y1="470" x2="380" y2="480" stroke="black" />
+<text x="360" y="475" fill="black" >35:1</text>
+<line x1="380" y1="480" x2="440" y2="460" stroke="black" />
+<text x="410" y="470" fill="black" >36:1</text>
+<line x1="440" y1="460" x2="470" y2="430" stroke="black" />
+<text x="455" y="445" fill="black" >37:1</text>
+<line x1="470" y1="430" x2="500" y2="400" stroke="black" />
+<text x="485" y="415" fill="black" >38:1</text>
+<line x1="510" y1="180" x2="400" y2="230" stroke="black" />
+<text x="455" y="205" fill="black" >39:1</text>
+<line x1="400" y1="230" x2="330" y2="240" stroke="black" />
+<text x="365" y="235" fill="black" >40:1</text>
+<line x1="330" y1="240" x2="380" y2="270" stroke="black" />
+<text x="355" y="255" fill="black" >41:1</text>
+<line x1="380" y1="270" x2="410" y2="330" stroke="black" />
+<text x="395" y="300" fill="black" >42:1</text>
+<line x1="410" y1="330" x2="400" y2="390" stroke="black" />
+<text x="405" y="360" fill="black" >43:1</text>
+<line x1="400" y1="390" x2="410" y2="430" stroke="black" />
+<text x="405" y="410" fill="black" >44:1</text>
+<line x1="410" y1="430" x2="440" y2="460" stroke="black" />
+<text x="425" y="445" fill="black" >45:1</text>
+
+
+</svg>

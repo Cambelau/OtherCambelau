@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.DatePicker?>
+<?import javafx.scene.control.MenuButton?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+
+<HBox fx:id="midSearch" alignment="CENTER" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="packageFx.client.Recherche_sceneController">
+   <children>
+      <BorderPane>
+         <center>
+            <HBox alignment="CENTER" minHeight="-Infinity" minWidth="-Infinity" prefHeight="120.0" prefWidth="1280.0">
+               <children>
+                  <MenuButton fx:id="adressePane" alignment="CENTER" mnemonicParsing="false" prefHeight="90.0" prefWidth="306.0" styleClass="btnMid" stylesheets="@../fxml.css" text="Adresse" textFill="WHITE">
+                     <HBox.margin>
+                        <Insets right="30.0" />
+                     </HBox.margin>
+                     <font>
+                        <Font name="Calibri" size="22.0" />
+                     </font>
+                  </MenuButton>
+                  <DatePicker fx:id="dateDebut" prefHeight="47.0" prefWidth="218.0">
+                     <HBox.margin>
+                        <Insets right="30.0" />
+                     </HBox.margin>
+                  </DatePicker>
+                  <DatePicker fx:id="dateFin" prefHeight="46.0" prefWidth="218.0">
+                     <HBox.margin>
+                        <Insets right="50.0" />
+                     </HBox.margin>
+                  </DatePicker>
+                  <Button mnemonicParsing="false" onAction="#rechercherBtn" prefHeight="90.0" prefWidth="218.0" styleClass="btnMid" stylesheets="@../fxml.css" text="Rechercher" textFill="WHITE">
+                     <font>
+                        <Font name="Calibri" size="22.0" />
+                     </font>
+                  </Button>
+               </children>
+            </HBox>
+         </center>
+         <bottom>
+            <Text fx:id="errorText" strokeType="OUTSIDE" strokeWidth="0.0" textAlignment="CENTER" wrappingWidth="940.0" BorderPane.alignment="CENTER">
+               <font>
+                  <Font name="Calibri" size="33.0" />
+               </font>
+            </Text>
+         </bottom>
+      </BorderPane>
+   </children>
+</HBox>

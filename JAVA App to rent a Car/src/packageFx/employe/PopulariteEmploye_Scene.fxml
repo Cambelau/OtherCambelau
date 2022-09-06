@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.chart.BarChart?>
+<?import javafx.scene.chart.CategoryAxis?>
+<?import javafx.scene.chart.NumberAxis?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.text.Text?>
+
+<HBox alignment="CENTER" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="packageFx.employe.PopulariteEmploye_SceneController">
+   <children>
+      <AnchorPane prefHeight="540.0" prefWidth="1103.0" styleClass="backResult" stylesheets="@../fxml.css">
+         <children>
+            <BarChart fx:id="statCar" layoutX="249.0" layoutY="45.0" prefHeight="450.0" prefWidth="581.0" styleClass="backResult">
+              <xAxis>
+                <CategoryAxis side="BOTTOM" />
+              </xAxis>
+              <yAxis>
+                <NumberAxis side="LEFT" />
+              </yAxis>
+            </BarChart>
+            <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="862.0" layoutY="80.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../image/VoitureC.jpg" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="862.0" layoutY="304.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../image/voitureD.jpg" />
+               </image>
+            </ImageView>
+            <Text layoutX="108.0" layoutY="71.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Modele A" />
+            <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="40.0" layoutY="80.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../image/VoitureA.jpg" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="40.0" layoutY="304.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../image/VoitureB.jpg" />
+               </image>
+            </ImageView>
+            <Text layoutX="940.0" layoutY="71.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Modele C" />
+            <Text layoutX="108.0" layoutY="286.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Modele B" />
+            <Text layoutX="930.0" layoutY="286.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Modele D" />
+         </children>
+      </AnchorPane>
+   </children>
+</HBox>

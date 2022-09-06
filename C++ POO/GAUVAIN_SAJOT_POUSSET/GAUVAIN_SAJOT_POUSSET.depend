@@ -1,0 +1,96 @@
+# depslib dependency file v1.0
+1575234226 source:c:\users\owner\downloads\gauvain_sajot_pousset\gauvain_sajot_pousset\bloc.cpp
+	"bloc.h"
+
+1575232816 c:\users\owner\downloads\gauvain_sajot_pousset\gauvain_sajot_pousset\bloc.h
+	"src/svg/svgfile.h"
+	"src/geometrie/coords.h"
+	"src/graphisme/couleur.h"
+	"src/geometrie/transformation.h"
+	<iostream>
+	<vector>
+
+1575026006 c:\users\owner\downloads\gauvain_sajot_pousset\gauvain_sajot_pousset\src\svg\svgfile.h
+	<string>
+	<fstream>
+	<set>
+
+1574856826 c:\users\owner\downloads\gauvain_sajot_pousset\gauvain_sajot_pousset\src\geometrie\coords.h
+
+1574437138 c:\users\owner\downloads\gauvain_sajot_pousset\gauvain_sajot_pousset\src\graphisme\couleur.h
+	<string>
+	<cstdint>
+
+1539863950 c:\users\owner\downloads\gauvain_sajot_pousset\gauvain_sajot_pousset\src\geometrie\transformation.h
+	"coords.h"
+	"matrice.h"
+
+1539886198 c:\users\owner\downloads\gauvain_sajot_pousset\gauvain_sajot_pousset\src\geometrie\matrice.h
+	"coords.h"
+	<array>
+
+1575235206 source:c:\users\owner\downloads\gauvain_sajot_pousset\gauvain_sajot_pousset\scene.cpp
+	"Scene.h"
+	<sstream>
+
+1575232808 c:\users\owner\downloads\gauvain_sajot_pousset\gauvain_sajot_pousset\scene.h
+	"bloc.h"
+
+1539873706 source:c:\users\owner\downloads\gauvain_sajot_pousset\gauvain_sajot_pousset\src\geometrie\cadre.cpp
+	"cadre.h"
+	<iostream>
+
+1539873886 c:\users\owner\downloads\gauvain_sajot_pousset\gauvain_sajot_pousset\src\geometrie\cadre.h
+	"coords.h"
+
+1574856708 source:c:\users\owner\downloads\gauvain_sajot_pousset\gauvain_sajot_pousset\src\geometrie\coords.cpp
+	"coords.h"
+	"../util/util.h"
+	<iostream>
+
+1539932632 c:\users\owner\downloads\gauvain_sajot_pousset\gauvain_sajot_pousset\src\util\util.h
+	<string>
+
+1539887222 source:c:\users\owner\downloads\gauvain_sajot_pousset\gauvain_sajot_pousset\src\geometrie\matrice.cpp
+	"matrice.h"
+	"cmath"
+
+1539887084 source:c:\users\owner\downloads\gauvain_sajot_pousset\gauvain_sajot_pousset\src\geometrie\transformation.cpp
+	"transformation.h"
+	<cmath>
+
+1574437542 source:c:\users\owner\downloads\gauvain_sajot_pousset\gauvain_sajot_pousset\src\graphisme\couleur.cpp
+	"couleur.h"
+	"../svg/svgfile.h"
+	"../util/util.h"
+	<iostream>
+
+1575297700 source:c:\users\owner\downloads\gauvain_sajot_pousset\gauvain_sajot_pousset\src\main.cpp
+	<iostream>
+	<vector>
+	<sstream>
+	<windows.h>
+	"../bloc.h"
+	"../Scene.h"
+
+1575026006 source:c:\users\owner\downloads\gauvain_sajot_pousset\gauvain_sajot_pousset\src\svg\svgfile.cpp
+	<iostream>
+	<sstream>
+
+1539935978 source:c:\users\owner\downloads\gauvain_sajot_pousset\gauvain_sajot_pousset\src\util\util.cpp
+	"util.h"
+	<random>
+	<ctime>
+	<iostream>
+	<cstdio>
+	<streambuf>
+	<vector>
+	<cstdlib>
+	<cstdio>
+	<algorithm>
+	<cstring>
+	<iostream>
+	<thread>
+	"../util/util.h"
+	<windows.h>
+

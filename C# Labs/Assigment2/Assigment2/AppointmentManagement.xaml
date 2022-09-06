@@ -1,0 +1,55 @@
+﻿<Window x:Class="Assigment2.AppointmentManagement"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Assigment2"
+        WindowStartupLocation="CenterScreen"
+        mc:Ignorable="d"
+
+        Title="AppointmentManagement" Height="450" Width="800">
+    <Grid>
+        <Label Content="Appointment Management" HorizontalAlignment="Left" Margin="50,32,0,0" VerticalAlignment="Top" Width="294" FontSize="24"/>
+        <Grid Margin="50,97,40,189">
+            <Border BorderBrush="Black" BorderThickness="1" Margin="0,0,10,-154" />
+            <Border BorderBrush="Black" BorderThickness="1" Margin="27,9,379,9"/>
+            <Border BorderBrush="Black" BorderThickness="1" Margin="27,163,379,-145">
+            </Border>
+            <Border BorderBrush="Black" BorderThickness="1" Margin="370,9,36,9"/>
+            <StackPanel HorizontalAlignment="Left" VerticalAlignment="Center" Margin="160,0,0,0" Height="124" Width="145">
+                <ComboBox IsEditable="True" Margin="0 0 0 20" Name="PatientCodeComboBox" DropDownClosed="PatientCodeComboBox_DropDownClosed" Width="140" Height="20">
+                </ComboBox>
+                <TextBox x:Name="PatientNameTextBox" Margin="0 0 0 20" HorizontalAlignment="Left"  TextWrapping="Wrap" Width="144"/>
+                <RadioButton x:Name="FeminineRadioButton" Content="Feminine"/>
+                <RadioButton x:Name="MasculineRadioButton" Content="Masculine" />
+            </StackPanel>
+            <Label Content="Patient code" HorizontalAlignment="Left" Margin="57,18,0,0" VerticalAlignment="Top"/>
+            <Label Content="Patient name" HorizontalAlignment="Left" Margin="57,57,0,0" VerticalAlignment="Top"/>
+            <Label Content="Patient gender" HorizontalAlignment="Left" Margin="57,88,0,0" VerticalAlignment="Top"/>
+            <StackPanel HorizontalAlignment="Left" VerticalAlignment="Center" Margin="522,0,0,0" Height="112" Width="134">
+                <ComboBox IsEditable="True" Margin="0 0 0 20"  DropDownClosed="DoctorCodeComboBox_DropDownClosed" Name="DoctorCodeComboBox"  Width="128" Height="22">
+                </ComboBox>
+                <TextBox x:Name="DoctorNameTextBox" Margin="0 0 0 20" HorizontalAlignment="Left"  TextWrapping="Wrap" Width="133"/>
+                <TextBox x:Name="DoctorSpeTextBox" Margin="0 0 0 20" HorizontalAlignment="Left" TextWrapping="Wrap" Width="134"/>
+            </StackPanel>
+            <Label Content="Doctor Code" HorizontalAlignment="Left" Margin="384,18,0,0" VerticalAlignment="Top"/>
+            <Label Content="Doctor Name" HorizontalAlignment="Left" Margin="384,56,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.053,0.479"/>
+            <Label Content="Doctor Speciality" HorizontalAlignment="Left" Margin="384,96,0,0" VerticalAlignment="Top"/>
+            <Grid Margin="27,163,379,-145" >
+                <Label Content="Appointment Time" HorizontalAlignment="Left" Margin="34,65,0,0" VerticalAlignment="Top"/>
+                <Label Content="Appointment Date" HorizontalAlignment="Left" Margin="34,25,0,0" VerticalAlignment="Top"/>
+                <StackPanel HorizontalAlignment="Left" VerticalAlignment="Center" Margin="148,0,0,0" Height="83" Width="133">
+                    <DatePicker x:Name="AppDateTime" Margin="0 0 0 20" HorizontalAlignment="Left" Width="129"/>
+                    <TextBox x:Name="AppTime" Margin="0 0 0 20" HorizontalAlignment="Left" TextWrapping="Wrap" Width="129"/>
+                </StackPanel>
+            </Grid>
+        </Grid>
+        <StackPanel HorizontalAlignment="Left" x:Name="StackPanel3" VerticalAlignment="Top" Margin="502,265,0,0" Height="110" Width="173">
+            <Button Margin="0 0 0 20" Content="Add Appointment" Click='AddAppointmentButton'/>
+            <Button Margin="0 0 0 20" Content="New" Click='NewButton'/>
+            <Button Margin="0 0 0 20" Content="Exit" Click="exitApplication"/>
+        </StackPanel>
+        <Label  Visibility="Hidden" x:Name="errorText" Content="Error Happened ! " HorizontalAlignment="Left" Margin="502,374,0,0" VerticalAlignment="Top" Width="173" Background="#FFEB2020" FontSize="9"/>
+
+    </Grid>
+</Window>

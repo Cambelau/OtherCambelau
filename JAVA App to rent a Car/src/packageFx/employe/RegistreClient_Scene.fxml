@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.ScrollPane?>
+<?import javafx.scene.layout.ColumnConstraints?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.RowConstraints?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<HBox alignment="CENTER" prefHeight="553.0" prefWidth="1212.0" styleClass="transparent" stylesheets="@../fxml.css" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="packageFx.employe.RegistreClient_SceneController">
+   <children>
+      <VBox fillWidth="false" prefHeight="553.0" prefWidth="1214.0" styleClass="transparent" stylesheets="@../fxml.css">
+         <children>
+            <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Registre des clients :">
+               <font>
+                  <Font name="Calibri" size="36.0" />
+               </font>
+               <VBox.margin>
+                  <Insets bottom="20.0" />
+               </VBox.margin>
+            </Text>
+            <ScrollPane fx:id="scrollTab" hbarPolicy="NEVER" prefHeight="498.0" prefWidth="1244.0" styleClass="transparent" stylesheets="@../fxml.css">
+               <content>
+                  <GridPane fx:id="gridVoiture" alignment="TOP_CENTER" gridLinesVisible="true" prefHeight="330.0" prefWidth="1211.0" styleClass="tab-back" stylesheets="@../fxml.css">
+                     <columnConstraints>
+                        <ColumnConstraints hgrow="SOMETIMES" maxWidth="272.0" minWidth="10.0" prefWidth="57.0" />
+                        <ColumnConstraints hgrow="SOMETIMES" maxWidth="345.00001068115233" minWidth="10.0" prefWidth="130.0" />
+                        <ColumnConstraints hgrow="SOMETIMES" maxWidth="406.5999755859375" minWidth="10.0" prefWidth="137.0" />
+                        <ColumnConstraints hgrow="SOMETIMES" maxWidth="343.8000183105469" minWidth="10.0" prefWidth="143.0" />
+                        <ColumnConstraints hgrow="SOMETIMES" maxWidth="322.6000122070312" minWidth="10.0" prefWidth="105.0" />
+                        <ColumnConstraints hgrow="SOMETIMES" maxWidth="322.6000122070312" minWidth="10.0" prefWidth="125.0" />
+                        <ColumnConstraints hgrow="SOMETIMES" maxWidth="322.6000122070312" minWidth="10.0" prefWidth="131.0" />
+                        <ColumnConstraints hgrow="SOMETIMES" maxWidth="322.6000122070312" minWidth="10.0" prefWidth="99.0" />
+                     </columnConstraints>
+                     <rowConstraints>
+                        <RowConstraints maxHeight="131.19998779296876" minHeight="10.0" prefHeight="131.19998779296876" vgrow="SOMETIMES" />
+                     </rowConstraints>
+                     <children>
+                        <Text fill="WHITE" strokeType="OUTSIDE" strokeWidth="0.0" text="ID" GridPane.halignment="CENTER">
+                           <font>
+                              <Font name="Calibri Bold" size="20.0" />
+                           </font>
+                        </Text>
+                        <Text fill="WHITE" strokeType="OUTSIDE" strokeWidth="0.0" text="Nom" GridPane.columnIndex="1" GridPane.halignment="CENTER">
+                           <font>
+                              <Font name="Calibri Bold" size="20.0" />
+                           </font>
+                        </Text>
+                        <Text fill="WHITE" strokeType="OUTSIDE" strokeWidth="0.0" text="Prénom" GridPane.columnIndex="2" GridPane.halignment="CENTER">
+                           <font>
+                              <Font name="Calibri Bold" size="20.0" />
+                           </font>
+                        </Text>
+                        <Text fill="WHITE" strokeType="OUTSIDE" strokeWidth="0.0" text="Adresse" GridPane.columnIndex="3" GridPane.halignment="CENTER">
+                           <font>
+                              <Font name="Calibri Bold" size="20.0" />
+                           </font>
+                        </Text>
+                        <Text fill="WHITE" strokeType="OUTSIDE" strokeWidth="0.0" text="Login" wrappingWidth="56.33593788743019" GridPane.columnIndex="4" GridPane.halignment="CENTER">
+                           <font>
+                              <Font name="Calibri Bold" size="20.0" />
+                           </font>
+                        </Text>
+                        <Text fill="WHITE" strokeType="OUTSIDE" strokeWidth="0.0" text="Membre" wrappingWidth="73.95270538330078" GridPane.columnIndex="5" GridPane.halignment="CENTER">
+                           <font>
+                              <Font name="Calibri Bold" size="20.0" />
+                           </font>
+                        </Text>
+                        <Text fill="WHITE" strokeType="OUTSIDE" strokeWidth="0.0" text="Coordonnées" textAlignment="CENTER" wrappingWidth="139.95270538330078" GridPane.columnIndex="6" GridPane.halignment="CENTER">
+                           <font>
+                              <Font name="Calibri Bold" size="20.0" />
+                           </font>
+                        </Text>
+                        <Text fill="WHITE" strokeType="OUTSIDE" strokeWidth="0.0" text="Type" GridPane.columnIndex="7" GridPane.halignment="CENTER">
+                           <font>
+                              <Font name="Calibri Bold" size="20.0" />
+                           </font>
+                        </Text>
+                     </children>
+                  </GridPane>
+               </content>
+            </ScrollPane>
+         </children>
+      </VBox>
+   </children>
+</HBox>

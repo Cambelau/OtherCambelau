@@ -1,0 +1,9 @@
+C:\Users\Owner\Documents\Life\ECE\~ING 4.2\C#\Assignment3\BusinessLogicLayer\bin\Debug\BusinessLogicLayer.dll
+C:\Users\Owner\Documents\Life\ECE\~ING 4.2\C#\Assignment3\BusinessLogicLayer\bin\Debug\BusinessLogicLayer.pdb
+C:\Users\Owner\Documents\Life\ECE\~ING 4.2\C#\Assignment3\BusinessLogicLayer\bin\Debug\DataAccessLayer.dll
+C:\Users\Owner\Documents\Life\ECE\~ING 4.2\C#\Assignment3\BusinessLogicLayer\bin\Debug\DataAccessLayer.pdb
+C:\Users\Owner\Documents\Life\ECE\~ING 4.2\C#\Assignment3\BusinessLogicLayer\obj\Debug\BusinessLogicLayer.csproj.AssemblyReference.cache
+C:\Users\Owner\Documents\Life\ECE\~ING 4.2\C#\Assignment3\BusinessLogicLayer\obj\Debug\BusinessLogicLayer.csproj.CoreCompileInputs.cache
+C:\Users\Owner\Documents\Life\ECE\~ING 4.2\C#\Assignment3\BusinessLogicLayer\obj\Debug\BusinessLogicLayer.csproj.CopyComplete
+C:\Users\Owner\Documents\Life\ECE\~ING 4.2\C#\Assignment3\BusinessLogicLayer\obj\Debug\BusinessLogicLayer.dll
+C:\Users\Owner\Documents\Life\ECE\~ING 4.2\C#\Assignment3\BusinessLogicLayer\obj\Debug\BusinessLogicLayer.pdb

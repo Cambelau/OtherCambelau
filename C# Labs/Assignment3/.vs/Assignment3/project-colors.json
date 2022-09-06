@@ -1,0 +1,21 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "b9dabe63-5176-4399-a724-1b6adf33f3bc": {
+      "ProjectGuid": "b9dabe63-5176-4399-a724-1b6adf33f3bc",
+      "DisplayName": "Assignment3",
+      "ColorIndex": 0
+    },
+    "bc2f4cf6-cfe1-4884-8acc-e8a9e389a0ee": {
+      "ProjectGuid": "bc2f4cf6-cfe1-4884-8acc-e8a9e389a0ee",
+      "DisplayName": "DataAccessLayer",
+      "ColorIndex": 1
+    },
+    "43efd0e6-48a4-407c-b4c3-9887b03a38a8": {
+      "ProjectGuid": "43efd0e6-48a4-407c-b4c3-9887b03a38a8",
+      "DisplayName": "BusinessLogicLayer",
+      "ColorIndex": 2
+    }
+  },
+  "NextColorIndex": 3
+}

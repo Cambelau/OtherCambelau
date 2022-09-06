@@ -1,0 +1,49 @@
+.top-bar{
+    -fx-background-color: #232a38;
+    -fx-opacity: 0.8;
+}
+.tab-back{
+    -fx-background-color: #232a38;
+}
+
+.background-image{
+    -fx-background-image:  url("../image/background.jpg");
+    -fx-background-size: cover;
+}
+
+.transparent{
+        -fx-background-color: rgba(0,0,0,0);
+}
+
+
+.btnTop:hover{
+        -fx-background-color: #913230;
+}
+
+.button:hover {
+    -fx-scale-y: 1.1;
+}
+
+.button:pressed:hover {
+    -fx-scale-y: 0.9;
+    -fx-scale-x: 0.9;
+}
+    
+.btnTop{
+            -fx-background-color: #6F1A1F;
+            -fx-background-radius: 25;
+}
+
+.btnMid{
+    -fx-background-color: #732F26;
+    -fx-radius: 15;
+}
+
+.backResult{
+        -fx-background-color: white;
+}
+
+.resultBtn{
+     -fx-background-color: #6F1A1F;
+
+}

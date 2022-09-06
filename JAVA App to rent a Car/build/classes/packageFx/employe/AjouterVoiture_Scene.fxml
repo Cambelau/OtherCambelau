@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.RadioButton?>
+<?import javafx.scene.control.Separator?>
+<?import javafx.scene.control.Slider?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.control.ToggleButton?>
+<?import javafx.scene.control.ToggleGroup?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<HBox alignment="CENTER" prefHeight="528.0" prefWidth="874.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="packageFx.employe.AjouterVoiture_SceneController">
+   <children>
+      <AnchorPane id="AnchorPane" prefHeight="327.0" prefWidth="874.0" styleClass="backResult" stylesheets="@../fxml.css">
+         <children>
+            <ImageView fitHeight="100.0" fitWidth="200.0" layoutX="235.0" layoutY="69.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../image/VoitureB.jpg" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="100.0" fitWidth="200.0" layoutX="446.0" layoutY="69.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../image/VoitureC.jpg" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="100.0" fitWidth="200.0" layoutX="662.0" layoutY="69.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../image/voitureD.jpg" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="100.0" fitWidth="200.0" layoutX="29.0" layoutY="69.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../image/VoitureA.jpg" />
+               </image>
+            </ImageView>
+            <RadioButton fx:id="carA" layoutX="117.0" layoutY="177.0" mnemonicParsing="false" prefHeight="31.0" prefWidth="18.0" text="carA" textFill="WHITE">
+               <toggleGroup>
+                  <ToggleGroup fx:id="car" />
+               </toggleGroup></RadioButton>
+            <RadioButton fx:id="carD" layoutX="739.0" layoutY="177.0" mnemonicParsing="false" prefHeight="31.0" prefWidth="18.0" text="carD" textFill="WHITE" toggleGroup="$car" />
+            <RadioButton fx:id="carC" layoutX="528.0" layoutY="177.0" mnemonicParsing="false" prefHeight="31.0" prefWidth="18.0" text="carC" textFill="WHITE" toggleGroup="$car" />
+            <RadioButton fx:id="carB" layoutX="318.0" layoutY="177.0" mnemonicParsing="false" prefHeight="31.0" prefWidth="18.0" text="carB" textFill="WHITE" toggleGroup="$car" />
+            <TextField fx:id="prixText" layoutX="367.0" layoutY="213.0" prefHeight="31.0" prefWidth="141.0" promptText="Prix Journalier" />
+            <Slider fx:id="slider" blockIncrement="1.0" layoutX="368.0" layoutY="269.0" minorTickCount="2" showTickMarks="true" />
+            <Separator layoutX="228.0" layoutY="69.0" orientation="VERTICAL" prefHeight="100.0" prefWidth="8.0" />
+            <Separator layoutX="433.0" layoutY="69.0" orientation="VERTICAL" prefHeight="100.0" prefWidth="8.0" />
+            <Separator layoutX="646.0" layoutY="69.0" orientation="VERTICAL" prefHeight="100.0" prefWidth="8.0" />
+            <ToggleButton fx:id="bdv1Bouton" layoutX="591.0" layoutY="331.0" mnemonicParsing="false" prefHeight="46.0" prefWidth="127.0" text="Manuelle">
+               <font>
+                  <Font name="Calibri" size="19.0" />
+               </font>
+               <toggleGroup>
+                  <ToggleGroup fx:id="vitesse" />
+               </toggleGroup>
+            </ToggleButton>
+            <ToggleButton fx:id="bdv2Bouton" layoutX="726.0" layoutY="331.0" mnemonicParsing="false" prefHeight="46.0" prefWidth="136.0" text="Automatique" toggleGroup="$vitesse">
+               <font>
+                  <Font name="Calibri" size="19.0" />
+               </font>
+            </ToggleButton>
+            <Button fx:id="AjouterBouton" layoutX="367.0" layoutY="467.0" mnemonicParsing="false" onAction="#addVoiture" prefHeight="46.0" prefWidth="163.0" styleClass="btnMid" text="Ajouter la voiture" textFill="WHITE">
+               <font>
+                  <Font name="Calibri Bold" size="16.0" />
+               </font>
+            </Button>
+            <TextArea fx:id="optionText" layoutX="318.0" layoutY="317.0" prefHeight="100.0" prefWidth="262.0" promptText="Options" AnchorPane.bottomAnchor="111.0" />
+            <ToggleButton fx:id="energie2Bouton" layoutX="160.0" layoutY="331.0" mnemonicParsing="false" prefHeight="46.0" prefWidth="136.0" text="Essence">
+               <font>
+                  <Font name="Calibri" size="19.0" />
+               </font>
+               <toggleGroup>
+                  <ToggleGroup fx:id="energie" />
+               </toggleGroup>
+            </ToggleButton>
+            <ToggleButton fx:id="energie1Bouton" layoutX="17.0" layoutY="331.0" mnemonicParsing="false" prefHeight="46.0" prefWidth="127.0" text="Électrique" toggleGroup="$energie">
+               <font>
+                  <Font name="Calibri" size="19.0" />
+               </font>
+            </ToggleButton>
+            <Text layoutX="331.0" layoutY="285.0" strokeType="OUTSIDE" strokeWidth="0.0" text="0 €" wrappingWidth="27.000011384487152" />
+            <Text layoutX="518.0" layoutY="285.0" strokeType="OUTSIDE" strokeWidth="0.0" text="100 €" wrappingWidth="47.00001138448715" />
+            <Text layoutX="518.0" layoutY="236.0" strokeType="OUTSIDE" strokeWidth="0.0" text="€" wrappingWidth="47.00001138448715">
+               <font>
+                  <Font name="Calibri" size="28.0" />
+               </font>
+            </Text>
+            <Text fx:id="errorText" layoutX="311.0" layoutY="452.0" strokeType="OUTSIDE" strokeWidth="0.0" wrappingWidth="269.6708984375">
+               <font>
+                  <Font name="Calibri Bold Italic" size="23.0" />
+               </font>
+            </Text>
+         </children>
+      </AnchorPane>
+   </children>
+</HBox>

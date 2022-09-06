@@ -1,0 +1,83 @@
+0
+34
+0 Defense 1 2
+1 Porte_Maillot 1.5 2.5
+2 Etoile 2 3
+3 Chatelet 3.2 3.6
+4 Bastille 4 3.9
+5 Nation 5 4
+6 Vincennes 5.5 4.5
+7 Porte_Dauphine 1.5 3.5 
+8 Villiers 2.5 2.3
+9 Barbes 3 2
+10 Stalingrad 4 2.3
+11 Pere_Lachaise 4.5 3
+12 Levallois 1.5 1.5
+13 Pereire 1.8 1.8
+14 Saint_Lazare 2.9 2.7
+15 Opera 3.3 2.9
+16 Reaumur 3.7 3.3
+17 Republique 4.1 3.3
+18 Gallieni 5.5 2.8
+19 Champs-Elysees 2.5 3.3
+20 Porte_Clign 2.9 1.2
+21 Gare_du_Nord 3.3 2.4
+22 Gare_de_l'Est 3.8 2.7
+23 Saint_Michel 3.2 4
+24 Montparnasse 3.2 4.5
+25 Raspail 3.4 4.7
+26 Denfert 3.8 4.8
+27 Montrouge 3.3 5.3
+28 Bir_Hakeim 2.2 4
+29 La_Motte 2.6 4.3
+30 Place-D'Italie 4.4 4.6 
+31 Bercy 4.7 4.3
+32 Bobigny 5.1 1.8
+33 Gare_D'Austerlitz 4.1 4.3
+46
+0 0 1
+1 1 2
+2 19 3
+3 3 4
+4 4 5
+5 5 6
+6 7 2
+7 2 8
+8 8 9
+9 9 10
+10 10 11
+11 11 5
+12 12 13
+13 13 8
+14 8 14
+15 14 15
+16 15 16
+17 16 17
+18 17 11
+19 11 18
+20 2 19
+21 20 9
+22 9 21
+23 21 22
+24 22 16
+25 16 3
+26 3 23
+27 23 24
+28 24 25
+29 25 26
+30 26 27
+31 2 28
+32 28 29
+33 29 24
+34 24 25
+35 25 26
+36 26 30 
+37 30 31
+38 31 5
+39 32 10
+40 10 21
+41 21 22
+42 22 17
+43 17 4
+44 4 33
+45 33 30

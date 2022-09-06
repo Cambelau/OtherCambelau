@@ -1,0 +1,16 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "97a8ee6e-fb7a-427e-96d4-d0d7bc583253": {
+      "ProjectGuid": "97a8ee6e-fb7a-427e-96d4-d0d7bc583253",
+      "DisplayName": "Assigment2",
+      "ColorIndex": 0
+    },
+    "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3": {
+      "ProjectGuid": "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3",
+      "DisplayName": "Fichiers divers",
+      "ColorIndex": -1
+    }
+  },
+  "NextColorIndex": 1
+}

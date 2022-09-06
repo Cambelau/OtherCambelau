@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="1000" height="800">
+
+<polygon points=" 0,0 1000,0 1000,800 0,800 " style="fill:#CEF6F5;stroke:black;stroke-width:30"/>
+<polygon points=" 0,700 0,800 1000,800 1000,700 " style="fill:#6E6E6E;stroke:black;stroke-width:3"/>
+<text x="500" y="750" fill="white" >sol</text>
+<line x1="0" y1="0" x2="0" y2="0" stroke="red" />
+<polygon points=" 0,0 -3,-3 -3,3" style="fill:red" />
+<polygon points=" 200,580 200,630 400,630 400,580 " style="fill:black;stroke:black;stroke-width:3"/>
+<text x="300" y="605" fill="white" >table</text>
+<line x1="0" y1="0" x2="0" y2="0" stroke="red" />
+<polygon points=" 0,0 -3,-3 -3,3" style="fill:red" />
+<polygon points=" 200,632.5 200,697.5 250,697.5 250,632.5 " style="fill:black;stroke:black;stroke-width:3"/>
+<text x="225" y="665" fill="white" >table_l</text>
+<line x1="0" y1="0" x2="0" y2="0" stroke="red" />
+<polygon points=" 0,0 -3,-3 -3,3" style="fill:red" />
+<polygon points=" 350,632.5 350,697.5 400,697.5 400,632.5 " style="fill:black;stroke:black;stroke-width:3"/>
+<text x="375" y="665" fill="white" >table_r</text>
+<line x1="0" y1="0" x2="0" y2="0" stroke="red" />
+<polygon points=" 0,0 -3,-3 -3,3" style="fill:red" />
+<polygon points=" 425,420 425,570 575,570 575,420 " style="fill:#04B4AE;stroke:black;stroke-width:3"/>
+<text x="500" y="495" fill="white" >corps</text>
+<line x1="0" y1="700" x2="1000" y2="700" stroke="red" />
+<polygon points=" 1000,700 997,697 997,703" style="fill:red" />
+<polygon points=" 470,390 470,420 530,420 530,390 " style="fill:#2EFEC8;stroke:black;stroke-width:3"/>
+<text x="500" y="405" fill="white" >cou</text>
+<line x1="425" y1="420" x2="575" y2="420" stroke="red" />
+<polygon points=" 575,420 572,417 572,423" style="fill:red" />
+<polygon points=" 325,430 325,470 425,470 425,430 " style="fill:#2EFEC8;stroke:black;stroke-width:3"/>
+<text x="375" y="450" fill="white" >brasG</text>
+<line x1="425" y1="420" x2="425" y2="570" stroke="red" />
+<polygon points=" 425,570 422,567 422,573" style="fill:red" />
+<polygon points=" 575,430 575,470 675,470 675,430 " style="fill:#2EFEC8;stroke:black;stroke-width:3"/>
+<text x="625" y="450" fill="white" >brasD</text>
+<line x1="575" y1="420" x2="575" y2="570" stroke="red" />
+<polygon points=" 575,570 572,567 572,573" style="fill:red" />
+<polygon points=" 677.5,422.5 677.5,437.5 712.5,437.5 712.5,422.5 " style="fill:blue;stroke:black;stroke-width:3"/>
+<text x="695" y="430" fill="white" >mainD1</text>
+<line x1="575" y1="430" x2="575" y2="470" stroke="red" />
+<polygon points=" 575,470 572,467 572,473" style="fill:red" />
+<polygon points=" 677.5,462.5 677.5,477.5 712.5,477.5 712.5,462.5 " style="fill:blue;stroke:black;stroke-width:3"/>
+<text x="695" y="470" fill="white" >mainD2</text>
+<line x1="575" y1="430" x2="575" y2="470" stroke="red" />
+<polygon points=" 575,470 572,467 572,473" style="fill:red" />
+<polygon points=" 287.5,422.5 287.5,437.5 322.5,437.5 322.5,422.5 " style="fill:blue;stroke:black;stroke-width:3"/>
+<text x="305" y="430" fill="white" >mainG1</text>
+<line x1="425" y1="430" x2="425" y2="470" stroke="red" />
+<polygon points=" 425,470 422,467 422,473" style="fill:red" />
+<polygon points=" 287.5,462.5 287.5,477.5 322.5,477.5 322.5,462.5 " style="fill:blue;stroke:black;stroke-width:3"/>
+<text x="305" y="470" fill="white" >mainG2</text>
+<line x1="425" y1="430" x2="425" y2="470" stroke="red" />
+<polygon points=" 425,470 422,467 422,473" style="fill:red" />
+<polygon points=" 442.5,570 442.5,660 487.5,660 487.5,570 " style="fill:#2EFEC8;stroke:black;stroke-width:3"/>
+<text x="465" y="615" fill="white" >jambeG</text>
+<line x1="425" y1="570" x2="575" y2="570" stroke="red" />
+<polygon points=" 575,570 572,567 572,573" style="fill:red" />
+<polygon points=" 512.5,570 512.5,660 557.5,660 557.5,570 " style="fill:#2EFEC8;stroke:black;stroke-width:3"/>
+<text x="535" y="615" fill="white" >jambeD</text>
+<line x1="425" y1="570" x2="575" y2="570" stroke="red" />
+<polygon points=" 575,570 572,567 572,573" style="fill:red" />
+<polygon points=" 515,662.5 515,697.5 585,697.5 585,662.5 " style="fill:

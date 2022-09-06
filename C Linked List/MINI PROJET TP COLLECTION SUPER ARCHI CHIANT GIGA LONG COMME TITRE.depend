@@ -1,0 +1,120 @@
+# depslib dependency file v1.0
+1552296729 source:c:\users\owner\documents\life\ece\informatique\info tp\mini projet tp collection super archi chiant giga long comme titre\main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<time.h>
+	"creation.h"
+	"save.h"
+	"maillons.h"
+	"tri.h"
+
+1551177512 c:\users\owner\documents\life\ece\informatique\info tp\mini projet tp collection super archi chiant giga long comme titre\prog.h
+
+1551184350 source:c:\users\owner\documents\life\ece\informatique\info tp\mini projet tp collection super archi chiant giga long comme titre\prog.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<time.h>
+	"Prog.h"
+
+1552296729 source:c:\users\owner\documents\life\ece\informatique\info tp\mini projet tp collection super archi chiant giga long comme titre\creation.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<time.h>
+	"creation.h"
+	"save.h"
+	"maillons.h"
+
+1552226640 c:\users\owner\documents\life\ece\informatique\info tp\mini projet tp collection super archi chiant giga long comme titre\creation.h
+
+1552227613 c:\users\owner\documents\life\ece\informatique\info tp\mini projet tp collection super archi chiant giga long comme titre\save.h
+
+1552227404 c:\users\owner\documents\life\ece\informatique\info tp\mini projet tp collection super archi chiant giga long comme titre\maillons.h
+
+1552296729 source:c:\users\owner\documents\life\ece\informatique\info tp\mini projet tp collection super archi chiant giga long comme titre\save.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<time.h>
+	"creation.h"
+	"save.h"
+	"maillons.h"
+
+1552296729 source:c:\users\owner\documents\life\ece\informatique\info tp\mini projet tp collection super archi chiant giga long comme titre\maillons.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<time.h>
+	"creation.h"
+	"save.h"
+	"maillons.h"
+
+1552228018 c:\users\owner\documents\life\ece\informatique\info tp\mini projet tp collection super archi chiant giga long comme titre\tri.h
+
+1552296729 source:c:\users\owner\documents\life\ece\informatique\info tp\mini projet tp collection super archi chiant giga long comme titre\tri.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<time.h>
+	"creation.h"
+	"save.h"
+	"maillons.h"
+	"tri.h"
+
+1552296730 source:c:\users\owner\documents\life\ece\~ing 1\informatique\info tp\code_sajot\mini projet tp collection super archi chiant giga long comme titre\creation.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<time.h>
+	"creation.h"
+	"save.h"
+	"maillons.h"
+
+1552226642 c:\users\owner\documents\life\ece\~ing 1\informatique\info tp\code_sajot\mini projet tp collection super archi chiant giga long comme titre\creation.h
+
+1552227614 c:\users\owner\documents\life\ece\~ing 1\informatique\info tp\code_sajot\mini projet tp collection super archi chiant giga long comme titre\save.h
+
+1552227406 c:\users\owner\documents\life\ece\~ing 1\informatique\info tp\code_sajot\mini projet tp collection super archi chiant giga long comme titre\maillons.h
+
+1552296730 source:c:\users\owner\documents\life\ece\~ing 1\informatique\info tp\code_sajot\mini projet tp collection super archi chiant giga long comme titre\maillons.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<time.h>
+	"creation.h"
+	"save.h"
+	"maillons.h"
+
+1552296730 source:c:\users\owner\documents\life\ece\~ing 1\informatique\info tp\code_sajot\mini projet tp collection super archi chiant giga long comme titre\main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<time.h>
+	"creation.h"
+	"save.h"
+	"maillons.h"
+	"tri.h"
+
+1552228020 c:\users\owner\documents\life\ece\~ing 1\informatique\info tp\code_sajot\mini projet tp collection super archi chiant giga long comme titre\tri.h
+
+1552296730 source:c:\users\owner\documents\life\ece\~ing 1\informatique\info tp\code_sajot\mini projet tp collection super archi chiant giga long comme titre\save.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<time.h>
+	"creation.h"
+	"save.h"
+	"maillons.h"
+
+1552296730 source:c:\users\owner\documents\life\ece\~ing 1\informatique\info tp\code_sajot\mini projet tp collection super archi chiant giga long comme titre\tri.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<time.h>
+	"creation.h"
+	"save.h"
+	"maillons.h"
+	"tri.h"
+

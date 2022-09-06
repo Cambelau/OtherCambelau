@@ -1,0 +1,23 @@
+sol 500 750 #6E6E6E 1000 100 na
+table 300 605 black 200 50 na
+table_l -75 60 black 50 65 table
+table_r 75 60 black 50 65 table
+corps 0 -255 #04B4AE 150 150 sol tl br
+cou 0 -90 #2EFEC8  60 30 corps tl br
+brasG -125 -45 #2EFEC8 100 40 corps tl tr
+brasD 125 -45 #2EFEC8 100 40 corps br bl
+mainD1 70 -20 blue 35 15 brasD tl tr
+mainD2 70 20 blue 35 15 brasD tl tr
+mainG1 -70 -20 blue 35 15 brasG br bl
+mainG2 -70 20 blue 35 15 brasG br bl
+jambeG -35 120 #2EFEC8 45 90 corps tr bl
+jambeD 35 120 #2EFEC8 45 90 corps tr bl
+piedD 15 65 #5882FA 70 35 jambeD tr bl
+piedG -15 65 #5882FA 70 35 jambeG tr bl
+tete 0 -65 #2EFEC8 210 100 cou tl br
+antenne 0 -100 #F78181 20 100 tete tl br
+oeilG -40 -20 #CEF6EC 40 40 tete
+oeilD 40 -20 #CEF6EC 40 40 tete
+oeilIntG -40 -20 #170B3B 10 10 tete
+oeilIntD 40 -20 #170B3B 10 10 tete
+bouche 0 25 #CEF6EC 55 15 tete

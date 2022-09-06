@@ -1,0 +1,35 @@
+# depslib dependency file v1.0
+1554323753 source:c:\users\owner\documents\life\ece\informatique\info tp\r-type\jeu.c
+	"jeu.h"
+
+1554658859 c:\users\owner\documents\life\ece\informatique\info tp\r-type\jeu.h
+	<allegro.h>
+
+1556221280 source:c:\users\owner\documents\life\ece\informatique\info tp\r-type\main.c
+	<stdio.h>
+	<stdlib.h>
+	<allegro.h>
+	<math.h>
+
+1556036543 source:c:\users\owner\documents\life\ece\informatique\info tp\r-type\creer.c
+
+1556036543 c:\users\owner\documents\life\ece\informatique\info tp\r-type\creer.h
+
+1556222157 source:c:\users\owner\documents\life\ece\informatique\info tp\sajot-siennicki-maurice_td08\main.c
+	<stdio.h>
+	<stdlib.h>
+	<allegro.h>
+	<math.h>
+
+1604915918 source:c:\users\owner\desktop\tout les projets\c s2 shoot them all\main.c
+	<stdio.h>
+	<stdlib.h>
+	<allegro.h>
+	<math.h>
+
+1604915918 source:c:\users\owner\documents\life\ece\&web\tout les projets\c s2 shoot them all\main.c
+	<stdio.h>
+	<stdlib.h>
+	<allegro.h>
+	<math.h>
+

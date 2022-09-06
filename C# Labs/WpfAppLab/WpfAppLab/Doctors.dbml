@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Database Name="Hospital" Class="DoctorsDataContext" xmlns="http://schemas.microsoft.com/linqtosql/dbml/2007">
+  <Connection Mode="AppSettings" ConnectionString="Data Source=DESKTOP-MATTHIE\SQLEXPRESS;Initial Catalog=Hospital;Integrated Security=True" SettingsObjectName="WpfAppLab.Properties.Settings" SettingsPropertyName="HospitalConnectionString" Provider="System.Data.SqlClient" />
+  <Table Name="dbo.Doctors" Member="Doctors">
+    <Type Name="Doctors">
+      <Column Name="DoctorId" Type="System.Int32" DbType="Int NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="DoctorName" Type="System.String" DbType="NChar(10)" CanBeNull="true" />
+      <Column Name="DoctorTel" Type="System.String" DbType="NChar(10)" CanBeNull="true" />
+      <Column Name="HiringDate" Type="System.String" DbType="NChar(10)" CanBeNull="true" />
+      <Column Name="DoctorSpecialism" Type="System.String" DbType="NChar(10)" CanBeNull="true" />
+    </Type>
+  </Table>
+</Database>

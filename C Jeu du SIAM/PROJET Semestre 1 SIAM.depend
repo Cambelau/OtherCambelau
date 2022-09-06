@@ -1,0 +1,167 @@
+# depslib dependency file v1.0
+1544391090 source:c:\users\owner\documents\life\ece\informatique\info tp\projet semestre 1 siam\action_jeu.c
+	<stdio.h>
+	<stdlib.h>
+	<windows.h>
+	"action_jeu.h"
+	"affichage_jeu.h"
+	"JcJ.h"
+	"poussee.h"
+
+1544391097 source:c:\users\owner\documents\life\ece\informatique\info tp\projet semestre 1 siam\main.c
+	<stdio.h>
+	<stdlib.h>
+	<windows.h>
+	"action_jeu.h"
+	"affichage_jeu.h"
+	"JcJ.h"
+	"poussee.h"
+
+1544391113 source:c:\users\owner\documents\life\ece\informatique\info tp\projet semestre 1 siam\affichage_jeu.c
+	<stdio.h>
+	<stdlib.h>
+	<windows.h>
+	"action_jeu.h"
+	"affichage_jeu.h"
+	"JcJ.h"
+	"poussee.h"
+
+1544391090 source:c:\users\owner\documents\life\ece\informatique\info tp\projet semestre 1 siam\jcj.c
+	<stdio.h>
+	<stdlib.h>
+	<windows.h>
+	"action_jeu.h"
+	"affichage_jeu.h"
+	"JcJ.h"
+	"poussee.h"
+
+1544040106 c:\users\owner\documents\life\ece\informatique\info tp\projet semestre 1 siam\action_jeu.h
+
+1544392102 c:\users\owner\documents\life\ece\informatique\info tp\projet semestre 1 siam\affichage_jeu.h
+
+1543745141 c:\users\owner\documents\life\ece\informatique\info tp\projet semestre 1 siam\jcj.c
+	<stdio.h>
+	<stdlib.h>
+	<windows.h>
+
+1544391090 c:\users\owner\documents\life\ece\informatique\info tp\projet semestre 1 siam\jcj.h
+
+1543755611 source:c:\users\owner\documents\life\ece\informatique\info tp\projet semestre 1 siam\structure.c
+
+1544351489 c:\users\owner\documents\life\ece\informatique\info tp\projet semestre 1 siam\poussee.h
+
+1544391090 source:c:\users\owner\documents\life\ece\informatique\info tp\projet semestre 1 siam\poussee.c
+	<stdio.h>
+	<stdlib.h>
+	<windows.h>
+	"action_jeu.h"
+	"affichage_jeu.h"
+	"JcJ.h"
+	"poussee.h"
+
+1544391090 source:c:\users\owner\documents\life\ece\~ing 1\informatique\info tp\siam 2018\projet semestre 1 siam\action_jeu.c
+	<stdio.h>
+	<stdlib.h>
+	<windows.h>
+	"action_jeu.h"
+	"affichage_jeu.h"
+	"JcJ.h"
+	"poussee.h"
+
+1544040106 c:\users\owner\documents\life\ece\~ing 1\informatique\info tp\siam 2018\projet semestre 1 siam\action_jeu.h
+
+1544392102 c:\users\owner\documents\life\ece\~ing 1\informatique\info tp\siam 2018\projet semestre 1 siam\affichage_jeu.h
+
+1544391090 c:\users\owner\documents\life\ece\~ing 1\informatique\info tp\siam 2018\projet semestre 1 siam\jcj.h
+
+1544351489 c:\users\owner\documents\life\ece\~ing 1\informatique\info tp\siam 2018\projet semestre 1 siam\poussee.h
+
+1544391113 source:c:\users\owner\documents\life\ece\~ing 1\informatique\info tp\siam 2018\projet semestre 1 siam\affichage_jeu.c
+	<stdio.h>
+	<stdlib.h>
+	<windows.h>
+	"action_jeu.h"
+	"affichage_jeu.h"
+	"JcJ.h"
+	"poussee.h"
+
+1544391090 source:c:\users\owner\documents\life\ece\~ing 1\informatique\info tp\siam 2018\projet semestre 1 siam\jcj.c
+	<stdio.h>
+	<stdlib.h>
+	<windows.h>
+	"action_jeu.h"
+	"affichage_jeu.h"
+	"JcJ.h"
+	"poussee.h"
+
+1544392043 source:c:\users\owner\documents\life\ece\~ing 1\informatique\info tp\siam 2018\projet semestre 1 siam\main.c
+	<stdio.h>
+	<stdlib.h>
+	<windows.h>
+	"action_jeu.h"
+	"affichage_jeu.h"
+	"JcJ.h"
+	"poussee.h"
+
+1544392170 source:c:\users\owner\documents\life\ece\~ing 1\informatique\info tp\siam 2018\projet semestre 1 siam\poussee.c
+	<stdio.h>
+	<stdlib.h>
+	<windows.h>
+	"action_jeu.h"
+	"affichage_jeu.h"
+	"JcJ.h"
+	"poussee.h"
+
+1544391090 source:c:\users\owner\desktop\tout les projets\c s1 siam\action_jeu.c
+	<stdio.h>
+	<stdlib.h>
+	<windows.h>
+	"action_jeu.h"
+	"affichage_jeu.h"
+	"JcJ.h"
+	"poussee.h"
+
+1544040106 c:\users\owner\desktop\tout les projets\c s1 siam\action_jeu.h
+
+1544392102 c:\users\owner\desktop\tout les projets\c s1 siam\affichage_jeu.h
+
+1544391090 c:\users\owner\desktop\tout les projets\c s1 siam\jcj.h
+
+1544351489 c:\users\owner\desktop\tout les projets\c s1 siam\poussee.h
+
+1544391113 source:c:\users\owner\desktop\tout les projets\c s1 siam\affichage_jeu.c
+	<stdio.h>
+	<stdlib.h>
+	<windows.h>
+	"action_jeu.h"
+	"affichage_jeu.h"
+	"JcJ.h"
+	"poussee.h"
+
+1544391090 source:c:\users\owner\desktop\tout les projets\c s1 siam\jcj.c
+	<stdio.h>
+	<stdlib.h>
+	<windows.h>
+	"action_jeu.h"
+	"affichage_jeu.h"
+	"JcJ.h"
+	"poussee.h"
+
+1544392043 source:c:\users\owner\desktop\tout les projets\c s1 siam\main.c
+	<stdio.h>
+	<stdlib.h>
+	<windows.h>
+	"action_jeu.h"
+	"affichage_jeu.h"
+	"JcJ.h"
+	"poussee.h"
+
+1544392170 source:c:\users\owner\desktop\tout les projets\c s1 siam\poussee.c
+	<stdio.h>
+	<stdlib.h>
+	<windows.h>
+	"action_jeu.h"
+	"affichage_jeu.h"
+	"JcJ.h"
+	"poussee.h"
+

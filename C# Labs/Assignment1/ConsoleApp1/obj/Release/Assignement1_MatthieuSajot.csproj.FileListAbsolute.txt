@@ -1,0 +1,8 @@
+C:\Users\Owner\Documents\Life\ECE\~ING 4.2\C#\ConsoleApp1\ConsoleApp1\bin\Release\ConsoleApp1.exe.config
+C:\Users\Owner\Documents\Life\ECE\~ING 4.2\C#\ConsoleApp1\ConsoleApp1\bin\Release\ConsoleApp1.exe
+C:\Users\Owner\Documents\Life\ECE\~ING 4.2\C#\ConsoleApp1\ConsoleApp1\bin\Release\ConsoleApp1.pdb
+C:\Users\Owner\Documents\Life\ECE\~ING 4.2\C#\ConsoleApp1\ConsoleApp1\obj\Release\Assignement1_MatthieuSajot.csproj.SuggestedBindingRedirects.cache
+C:\Users\Owner\Documents\Life\ECE\~ING 4.2\C#\ConsoleApp1\ConsoleApp1\obj\Release\Assignement1_MatthieuSajot.csproj.CoreCompileInputs.cache
+C:\Users\Owner\Documents\Life\ECE\~ING 4.2\C#\ConsoleApp1\ConsoleApp1\obj\Release\ConsoleApp1.exe
+C:\Users\Owner\Documents\Life\ECE\~ING 4.2\C#\ConsoleApp1\ConsoleApp1\obj\Release\ConsoleApp1.pdb
+C:\Users\Owner\Documents\Life\ECE\~ING 4.2\C#\ConsoleApp1\ConsoleApp1\obj\Release\Assignement1_MatthieuSajot.csproj.AssemblyReference.cache

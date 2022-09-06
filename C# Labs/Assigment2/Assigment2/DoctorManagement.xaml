@@ -1,0 +1,43 @@
+﻿<Window x:Class="Assigment2.DoctorManagement"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Assigment2"
+        mc:Ignorable="d"
+        WindowStartupLocation="CenterScreen"
+        Title="DoctorManagement" Height="450" Width="800">
+    <Grid Background="AliceBlue">
+        <Label Content="Doctor Management" HorizontalAlignment="Left" Margin="68,32,0,0" VerticalAlignment="Top" Width="294" FontSize="24"/>
+        <Grid Margin="68,97,278,29">
+            <Border BorderBrush="Black" BorderThickness="1" Margin="0,0,0,10" />
+            <StackPanel HorizontalAlignment="Left" VerticalAlignment="Top" Margin="227,23,0,0" Height="221" Width="190">
+                <TextBox x:Name="CodeTextBox" Margin="0 0 0 20" HorizontalAlignment="Left"  TextWrapping="Wrap"  VerticalAlignment="Top" Width="190"/>
+                <TextBox x:Name="NameTextBox" Margin="0 0 0 20" HorizontalAlignment="Left" TextWrapping="Wrap"  VerticalAlignment="Top" Width="190"/>
+                <TextBox x:Name="TelephoneTextBox" Margin="0 0 0 20" HorizontalAlignment="Left" TextWrapping="Wrap" VerticalAlignment="Top" Width="190" />
+                <DatePicker x:Name="HiringDateDateTime" Margin="0 0 0 20" HorizontalAlignment="Left"  VerticalAlignment="Top" Width="190"/>
+                <ComboBox IsEditable="True" Margin="0 0 0 20" Name="SpecialityComboBox"  Width="190" Height="23">
+                   <ComboBoxItem >Général</ComboBoxItem>
+                    <ComboBoxItem >Cardio</ComboBoxItem>
+                    <ComboBoxItem >Chirurgie</ComboBoxItem>
+                    <ComboBoxItem >Dermato</ComboBoxItem>
+                    <ComboBoxItem >Pédiatrie</ComboBoxItem>
+                </ComboBox>
+            </StackPanel>
+            <Label Content="Code" HorizontalAlignment="Left" Margin="57,34,0,0" VerticalAlignment="Top"/>
+            <Label Content="Name" HorizontalAlignment="Left" Margin="57,73,0,0" VerticalAlignment="Top"/>
+            <Label Content="Telephone" HorizontalAlignment="Left" Margin="57,111,0,0" VerticalAlignment="Top"/>
+            <Label Content="Hiring Date" HorizontalAlignment="Left" Margin="57,143,0,0" VerticalAlignment="Top"/>
+            <Label Content="Speciality" HorizontalAlignment="Left" Margin="57,181,0,0" VerticalAlignment="Top"/>
+        </Grid>
+        <StackPanel HorizontalAlignment="Left" Name="StackPanel3" VerticalAlignment="Top" Margin="575,97,0,0" Height="221" Width="173">
+            <Button Margin="0 0 0 20" Content="New" Click='NewButton'/>
+            <Button Margin="0 0 0 20" Content="Search" Click='SearchButton'/>
+            <Button Margin="0 0 0 20" Content="Add" Click="AddButton"/>
+            <Button Margin="0 0 0 20" Content="Edit" Click="EditButton"/>
+            <Button Margin="0 0 0 20" Content="Delete" Click="DeleteButton"/>
+            <Button Margin="0 0 0 20" Content="Exit" Click="exitApplication"/>
+        </StackPanel>
+        <Label Visibility="Hidden"  x:Name="errorText" Content="Error Happened ! " HorizontalAlignment="Left" Margin="575,342,0,0" VerticalAlignment="Top" Width="173" Background="#FFEB2020" FontSize="9"/>
+    </Grid>
+</Window>

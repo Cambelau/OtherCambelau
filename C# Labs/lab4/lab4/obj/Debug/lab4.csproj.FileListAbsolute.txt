@@ -1,0 +1,13 @@
+C:\Users\Owner\Documents\Life\ECE\~ING 4.2\C#\lab4\lab4\bin\Debug\lab4.exe.config
+C:\Users\Owner\Documents\Life\ECE\~ING 4.2\C#\lab4\lab4\bin\Debug\lab4.exe
+C:\Users\Owner\Documents\Life\ECE\~ING 4.2\C#\lab4\lab4\bin\Debug\lab4.pdb
+C:\Users\Owner\Documents\Life\ECE\~ING 4.2\C#\lab4\lab4\obj\Debug\lab4.csproj.AssemblyReference.cache
+C:\Users\Owner\Documents\Life\ECE\~ING 4.2\C#\lab4\lab4\obj\Debug\lab4.csproj.SuggestedBindingRedirects.cache
+C:\Users\Owner\Documents\Life\ECE\~ING 4.2\C#\lab4\lab4\obj\Debug\lab4.Form1.resources
+C:\Users\Owner\Documents\Life\ECE\~ING 4.2\C#\lab4\lab4\obj\Debug\lab4.Properties.Resources.resources
+C:\Users\Owner\Documents\Life\ECE\~ING 4.2\C#\lab4\lab4\obj\Debug\lab4.csproj.GenerateResource.cache
+C:\Users\Owner\Documents\Life\ECE\~ING 4.2\C#\lab4\lab4\obj\Debug\lab4.csproj.CoreCompileInputs.cache
+C:\Users\Owner\Documents\Life\ECE\~ING 4.2\C#\lab4\lab4\obj\Debug\lab4.exe
+C:\Users\Owner\Documents\Life\ECE\~ING 4.2\C#\lab4\lab4\obj\Debug\lab4.pdb
+C:\Users\Owner\Documents\Life\ECE\~ING 4.2\C#\lab4\lab4\bin\Debug\Customer.mdf
+C:\Users\Owner\Documents\Life\ECE\~ING 4.2\C#\lab4\lab4\bin\Debug\Customer_log.ldf
